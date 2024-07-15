@@ -18,8 +18,8 @@ global.gurl = process.env.GURL || "https://whatsapp.com/channel/0029VaJX1NzCxoAy
 global.website = process.env.GURL || "https://whatsapp.com/channel/0029VaJX1NzCxoAyVGHlfY2l";
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/e11bafaedba6aebcd9410.jpg";
 global.devs = "255657779003";
-global.sudo = process.env.SUDO || "255657779003";
-global.owner = process.env.OWNER_NUMBER || "255657779003";
+global.sudo = process.env.SUDO || "255653849753";
+global.owner = process.env.OWNER_NUMBER || "255653849753";
 global.style = process.env.STYLE || "3";
 global.gdbye = process.env.GOODBYE || "false";
 global.wlcm = process.env.WELCOME || "false";
@@ -33,7 +33,7 @@ global.readcmds = process.env.READ_COMMAND || "false";
 global.readmessage = process.env.READ_MESSAGE || "false";
 global.readmessagefrom = process.env.READ_MESSAGE_FROM || "";
 global.read_status = process.env.AUTO_READ_STATUS || "true";
-global.save_status = process.env.AUTO_SAVE_STATUS || "false";
+global.save_status = process.env.AUTO_SAVE_STATUS || "true";
 global.save_status_from = process.env.SAVE_STATUS_FROM || "";
 global.read_status_from = process.env.READ_STATUS_FROM || "";
 
@@ -51,8 +51,8 @@ module.exports = {
   caption: process.env.CAPTION || "💻basanzietech | shakira-md❤️",
   author: process.env.PACK_AUTHER || "basanzietech",
   packname: process.env.PACK_NAME || "♥️",
-  botname: process.env.BOT_NAME || "shakira-md",
-  ownername: process.env.OWNER_NAME || "BENJAMINI OMARY",
+  botname: process.env.BOT_NAME || "mrx605ilevel",
+  ownername: process.env.OWNER_NAME || "X-605",
   errorChat: process.env.ERROR_CHAT || "",
   KOYEB_API: process.env.KOYEB_API || "false",
   REMOVE_BG_KEY: process.env.REMOVE_BG_KEY || "",
